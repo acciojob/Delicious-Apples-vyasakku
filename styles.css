@@ -1,1 +1,27 @@
-/* your code here */
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .product__info{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+       .product{
+        display: flex;
+        justify-content: center;
+       }
+       .photo-album ul{
+        display: flex;
+        flex-direction: row;
+       }
+       ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+       }
+       #list{
+        display:block;
+        list-style-type:disc;
+       }
